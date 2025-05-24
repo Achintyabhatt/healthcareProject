@@ -1,0 +1,1 @@
+export const navLinks = ['Dashboard', 'History', 'Calendar'];

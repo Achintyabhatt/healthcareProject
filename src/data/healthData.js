@@ -1,0 +1,1 @@
+export const healthIndicators = [{ part: 'Lungs', status: 'Warning' }];

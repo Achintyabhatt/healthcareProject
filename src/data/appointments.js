@@ -1,0 +1,1 @@
+export const appointments = [{ title: 'Dentist', time: '09:00' }];
