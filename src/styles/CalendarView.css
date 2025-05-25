@@ -1,0 +1,32 @@
+.calendar-view {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .calendar-view h2 {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .calendar-cell {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #e2e8f0;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .calendar-cell.active {
+    background-color: #38bdf8;
+    color: white;
+  }
+  

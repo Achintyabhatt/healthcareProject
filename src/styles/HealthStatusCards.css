@@ -1,0 +1,32 @@
+.health-status-cards {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .health-card {
+    flex: 1;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  .health-icon {
+    color: #38bdf8;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .card-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
