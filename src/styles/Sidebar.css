@@ -1,11 +1,47 @@
 .sidebar {
   width: 220px;
-  background-color: #0f172a;
+  background-color: #9aabd7;
   color: white;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   padding: 20px;
+}
+.sidebar-section {
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  color: #1e3a8a;
+}
+.sidebar-text {
+  padding-left: 5px;
+}
+.healthcare-image {
+  height: 40px;
+  max-width: 50px;
+  position: relative;
+  right: 7px;
+  /* filter: invert(100%); */
+}
+.health-title {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  color: #6b2c91;
+}
+.health-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .sidebar h1 {
@@ -48,14 +84,15 @@
   display: flex;
   align-items: center;
   padding: 0.75rem 1rem;
-  color: #4b5563;
+  color: white;
   text-decoration: none;
   cursor: pointer;
+  margin-top: 5px;
 }
 
 .sidebar-link.active {
-  background-color: #e0f2fe;
-  border-left: 4px solid #3b82f6;
-  font-weight: 600;
+  background-color: white;
+  border-left: 4px solid #1e3a8a;
+  font-weight: 500;
   color: #1e3a8a;
 }

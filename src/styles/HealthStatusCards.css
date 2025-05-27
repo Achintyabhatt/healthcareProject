@@ -1,32 +1,62 @@
 .health-status-cards {
-    display: flex;
-    gap: 16px;
-  }
-  
-  .health-card {
-    flex: 1;
-    background-color: white;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  }
-  
-  .card-header {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-weight: 600;
-    margin-bottom: 12px;
-  }
-  
-  .health-icon {
-    color: #38bdf8;
-    width: 24px;
-    height: 24px;
-  }
-  
-  .card-value {
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-  
+  display: flex;
+  gap: 13px;
+}
+
+.health-card {
+  flex: 1;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  height: 8rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.health {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.health {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.card-title {
+  color: #1e3a8a;
+  font-weight: 500;
+}
+
+.health-icon {
+  color: #1e3a8a;
+  width: 24px;
+  height: 24px;
+}
+
+.card-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.health-and-patient-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.patient-info-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  height: 25rem; /* Match health-card height */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

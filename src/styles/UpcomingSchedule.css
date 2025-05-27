@@ -1,13 +1,25 @@
 .upcoming-schedule {
-    background-color: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  }
-  
-  .upcoming-schedule h2 {
-    font-size: 1.25rem;
-    margin-bottom: 16px;
-    font-weight: 600;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  min-width: 700px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.upcoming-schedule h2 {
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.schedule-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.schedule-card-wrapper {
+  min-width: 100px;
+}

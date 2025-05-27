@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/ActivityFeed.css';
+import React from "react";
+import "../styles/ActivityFeed.css";
 
 const ActivityFeed = () => {
   return (
@@ -9,6 +9,8 @@ const ActivityFeed = () => {
         <li>✅ Checked patient vitals - John Doe</li>
         <li>📅 Scheduled MRI for Jane Smith</li>
         <li>💊 Prescribed medication for Brian Lee</li>
+        <li>🚶‍♂️ Logged 5,000 steps for Liam Walker</li>
+        <li>💉 Administered flu vaccine to Noah Davis</li>
       </ul>
     </div>
   );

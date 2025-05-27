@@ -1,18 +1,19 @@
-import React from 'react';
-import '../styles/Header.css';
-import { Bell, Plus } from 'lucide-react';
+import React from "react";
+import "../styles/Header.css";
+import { Bell, Plus, Search } from "lucide-react";
+import AvatarImg from "../assets/avatar.jpg";
 
 const Header = () => {
   return (
     <header className="header">
-      <h1 className="logo"><span>Health</span>care.</h1>
       <div className="search-container">
-        <input type="text" placeholder="Search" />
-        <Bell className="icon" />
+        <Search className="search-icon" color="#1e3a8a" />
+        <input type="text" placeholder="Search.." />
+        <Bell className="bell-icon" color="#1e3a8a" />
       </div>
       <div className="user-actions">
-        <Plus className="icon plus-icon" />
-        <img src="https://i.pravatar.cc/40" alt="User" className="user-avatar" />
+        <Plus className="plus-icon" color="#1e3a8a" />
+        <img src={AvatarImg} alt="User" className="user-avatar" />
       </div>
     </header>
   );

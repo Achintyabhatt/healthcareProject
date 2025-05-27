@@ -1,16 +1,18 @@
-import React from 'react';
-import './styles/App.css';
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import DashboardMainContent from './components/DashboardMainContent';
+import React, { useState } from "react";
+import Sidebar from "./components/Sidebar";
+import Header from "./components/Header";
+import DashboardMainContent from "./components/DashboardMainContent";
+import "./styles/App.css";
 
 function App() {
+  const [activeTab, setActiveTab] = useState("Dashboard");
+
   return (
     <div className="app">
-      <Sidebar />
-      <div className="main-area">
+      <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
+      <div className="main-content">
         <Header />
-        <DashboardMainContent />
+        <DashboardMainContent activeTab={activeTab} />
       </div>
     </div>
   );

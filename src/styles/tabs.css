@@ -1,0 +1,17 @@
+.tab-content {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.tab-content h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #1e2a3a;
+}
+
+.tab-content p {
+  color: #4b5563;
+  font-size: 1rem;
+}
