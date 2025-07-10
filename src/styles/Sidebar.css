@@ -1,11 +1,16 @@
 .sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 220px;
+  height: 100vh;
   background-color: #9aabd7;
   color: white;
-  height: auto;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px 0 20px 0;
+  z-index: 100;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.04);
 }
 .sidebar-section {
   margin-top: 0.7rem;
